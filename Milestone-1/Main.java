@@ -51,9 +51,9 @@ class Library {
 public class Main {
     public static void main(String[] args) {
         // Book class
-        Book book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald");
+        Book book1 = new Book("The harry black", "h.k kalash");
         book1.displayDetails();
-        book1.setTitle("The Great Gatsby - Updated Edition");
+        book1.setTitle("The Great don - hk Edition");
         book1.displayDetails();
 
         // Library class
@@ -63,3 +63,13 @@ public class Main {
         library.displayLibraryInfo();
     }
 }
+
+// Book Title: The harry black
+// Author: h.k kalash
+// Book Title: The Great don - hk Edition
+// Author: h.k kalash
+// Library Name: City Library
+// Total Books: 500
+// 50 books added to the library.
+// Library Name: City Library
+// Total Books: 550
